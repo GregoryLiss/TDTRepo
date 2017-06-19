@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION GLISS.ftest (n NUMBER)
+    RETURN number
+IS
+BEGIN
+ return n;
+END;
+/
